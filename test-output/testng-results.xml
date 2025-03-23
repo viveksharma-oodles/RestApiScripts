@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-23T14:26:51 IST" name="Default suite" finished-at="2025-03-23T14:26:56 IST" duration-ms="5133">
+    <groups>
+    </groups>
+    <test started-at="2025-03-23T14:26:51 IST" name="Default test" finished-at="2025-03-23T14:26:56 IST" duration-ms="5133">
+      <class name="RestfulBooker.PatchApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestfulBooker.PatchApiTest@247310d0]" started-at="2025-03-23T14:26:55 IST" name="setup" finished-at="2025-03-23T14:26:55 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdateObject()[pri:2, instance:RestfulBooker.PatchApiTest@247310d0]" started-at="2025-03-23T14:26:55 IST" name="testUpdateObject" finished-at="2025-03-23T14:26:56 IST" depends-on-methods="RestfulBooker.PostApiTest.testCreateObject" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateObject -->
+      </class> <!-- RestfulBooker.PatchApiTest -->
+      <class name="RestfulBooker.PostApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestfulBooker.PostApiTest@17fc391b]" started-at="2025-03-23T14:26:51 IST" name="setup" finished-at="2025-03-23T14:26:52 IST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateObject()[pri:1, instance:RestfulBooker.PostApiTest@17fc391b]" started-at="2025-03-23T14:26:52 IST" name="testCreateObject" finished-at="2025-03-23T14:26:55 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateObject -->
+      </class> <!-- RestfulBooker.PostApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
