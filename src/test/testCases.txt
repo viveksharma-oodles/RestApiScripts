@@ -1,0 +1,23 @@
+Verify Create, Read, Update, Delete (CRUD) operations.
+
+Verify correct response codes like 200 OK, 201 Created, 400 Bad Request, 404 Not Found.
+
+Send requests with missing or invalid data.
+
+Try accessing a non-existent object ID.
+
+Use unsupported HTTP methods (e.g., PUT /objects) like if we use diff HTTP methods except PATCH, we should get error
+
+Verify response headers & schema
+
+Verify data is saved in DB after hitting any POST/PATCH/PUT 
+
+Verify Rate Limiting
+
+Check API response time.
+
+Test API under heavy load.
+
+Test unauthorized access.
+
+Check for SQL injection and invalid inputs.
